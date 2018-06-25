@@ -1,0 +1,15 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+.paragraph{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(9, 182, 182, 0.5);
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}

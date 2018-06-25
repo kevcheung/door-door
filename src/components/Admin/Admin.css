@@ -1,0 +1,39 @@
+.adminRender{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addInfo{
+    background-color: rgb(9, 182, 182, 0.7);
+    width: 100%;
+    max-width: 200px;
+    /* margin-left: 7vw; */
+    border-radius: 10px;
+    padding: 5px 43px;
+}
+.addHoaTitle{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 30px;
+}
+.addHoaButton{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(9, 94, 94, 0.7);
+    border-radius: 10px;
+    padding: 5px 43px;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+@media screen and (min-width: 1000px){
+    .adminRender{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,32 @@
+.secureLog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+.notlogged{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.notlogged img {
+    /* display: block; */
+    height: auto;
+    width: 60vw;
+    max-width: 400px;
+}
+.notloggedBox{
+    background-color: rgba(9, 182, 182, 0.5);
+    /* max-width: 100%; */
+    border-radius: 5px;
+}
+.return{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(9, 94, 94, 0.7);
+    border-radius: 10px;
+    padding: 5px 43px;
+    cursor: pointer;
+}
